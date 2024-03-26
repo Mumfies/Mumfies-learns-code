@@ -1,0 +1,34 @@
+<body>
+    <h1 id="overskrift1" onclick="endreTekst1()">Trykk på meg!</h1>
+    <script>
+        function endreTekst1() {
+            document.getElementById('overskrift1').innerHTML = 'Takk :-)';
+        }
+    </script>
+
+
+    <script>
+        function heiPåDeg() {
+            alert('Hei')
+            alert('På')
+            alert('Deg')
+        }
+    </script>
+     <h1 onclick="heiPåDeg()";> Trykk for hei!</h1>
+
+
+     <h1 onclick="endreTekst()">Trykk på meg for å endre overskriften under!</h1>
+     <h1 id="overskrift">Trykk på overskriften over for å endre meg!</h1>
+     <script>
+        function endreTekst() {
+            document.getElementById('overskrift').innerHTML = 'Takk:-)';
+        }
+     </script>
+
+     <b id="overskrift2" onclick="endreTekst3()">Trykk for prikker:</b>
+     <script>
+        function endreTekst3() {
+            document.getElementById('overskrift2').innerHTML += ' ⚫️';
+        }
+     </script>
+    </body>
